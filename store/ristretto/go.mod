@@ -1,10 +1,10 @@
-module github.com/eko/gocache/store/ristretto/v4
+module github.com/slumberGroup/gocache/store/ristretto/v4
 
 go 1.21
 
 require (
 	github.com/dgraph-io/ristretto v0.1.1
-	github.com/eko/gocache/lib/v4 v4.1.7
+	github.com/eko/gocache/lib/v4 v4.1.6
 	github.com/stretchr/testify v1.8.1
 	go.uber.org/mock v0.4.0
 )
@@ -22,3 +22,5 @@ require (
 )
 
 replace github.com/eko/gocache/lib/v4 => ../../lib/
+
+replace github.com/slumberGroup/gocache/lib/v4 => ../../lib/
