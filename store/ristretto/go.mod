@@ -4,7 +4,7 @@ go 1.21
 
 require (
 	github.com/dgraph-io/ristretto v0.1.1
-	github.com/eko/gocache/lib/v4 v4.1.6
+	github.com/eko/gocache/lib/v4 v4.1.7
 	github.com/stretchr/testify v1.8.1
 	go.uber.org/mock v0.4.0
 )
