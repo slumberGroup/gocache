@@ -1,6 +1,6 @@
 module github.com/eko/gocache/store/ristretto/v4
 
-go 1.22
+go 1.21
 
 require (
 	github.com/dgraph-io/ristretto v0.1.1
